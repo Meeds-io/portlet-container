@@ -34,7 +34,7 @@
 
    <groupId>io.meeds.gatein.pc</groupId>
    <artifactId>pc-parent</artifactId>
-   <version>7.0.0-exo-20250108</version>
+   <version>7.0.x-exo-SNAPSHOT</version>
    <packaging>pom</packaging>
 
    <name>GateIn - Portlet Container</name>
@@ -47,11 +47,10 @@
       <connection>scm:git:git://github.com/meeds-io/gatein-pc.git</connection>
       <developerConnection>scm:git:ssh://git@github.com/meeds-io/gatein-pc.git</developerConnection>
       <url>https://github.com/meeds-io/gatein-pc</url>
-     <tag>7.0.0-exo-20250108</tag>
-  </scm>
+   </scm>
 
    <properties>
-      <io.meeds.core.version>7.0.0-exo-20250108</io.meeds.core.version>
+      <io.meeds.core.version>7.0.x-exo-SNAPSHOT</io.meeds.core.version>
       <!-- Sonar properties -->
       <sonar.organization>meeds-io</sonar.organization>
     
