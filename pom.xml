@@ -34,7 +34,7 @@
 
    <groupId>io.meeds.gatein.pc</groupId>
    <artifactId>pc-parent</artifactId>
-   <version>7.0.x-meed-SNAPSHOT</version>
+   <version>7.0.0-meed-20250220</version>
    <packaging>pom</packaging>
 
    <name>GateIn - Portlet Container</name>
@@ -47,7 +47,8 @@
       <connection>scm:git:git://github.com/meeds-io/gatein-pc.git</connection>
       <developerConnection>scm:git:ssh://git@github.com/meeds-io/gatein-pc.git</developerConnection>
       <url>https://github.com/meeds-io/gatein-pc</url>
-   </scm>
+     <tag>7.0.0-meed-20250220</tag>
+  </scm>
 
    <properties>
       <io.meeds.core.version>7.0.0-meed-20250220</io.meeds.core.version>
