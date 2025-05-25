@@ -1,25 +1,21 @@
-/******************************************************************************
- * JBoss, a division of Red Hat                                               *
- * Copyright 2006, Red Hat Middleware, LLC, and individual                    *
- * contributors as indicated by the @authors tag. See the                     *
- * copyright.txt in the distribution for a full listing of                    *
- * individual contributors.                                                   *
- *                                                                            *
- * This is free software; you can redistribute it and/or modify it            *
- * under the terms of the GNU Lesser General Public License as                *
- * published by the Free Software Foundation; either version 2.1 of           *
- * the License, or (at your option) any later version.                        *
- *                                                                            *
- * This software is distributed in the hope that it will be useful,           *
- * but WITHOUT ANY WARRANTY; without even the implied warranty of             *
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU           *
- * Lesser General Public License for more details.                            *
- *                                                                            *
- * You should have received a copy of the GNU Lesser General Public           *
- * License along with this software; if not, write to the Free                *
- * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA         *
- * 02110-1301 USA, or see the FSF site: http://www.fsf.org.                   *
- ******************************************************************************/
+/**
+ * This file is part of the Meeds project (https://meeds.io/).
+ *
+ * Copyright (C) 2020 - 2025 Meeds Association contact@meeds.io
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3 of the License, or (at your option) any later version.
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program; if not, write to the Free Software Foundation,
+ * Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ */
 package org.gatein.pc.test.portlet.jsr168.tck.portletinterface.spec;
 
 import org.gatein.pc.test.unit.JoinPoint;
@@ -33,15 +29,6 @@ import javax.portlet.PortletException;
 /**
  * DISABLED - NOT CURRENTLY USED TEST CASE
  *
- * @author <a href="mailto:boleslaw.dawidowicz@jboss.org">Boleslaw Dawidowicz</a>
- * @version $Revision: 5572 $
- * @portlet.specification assert="SPEC:5 - During initialization, the portlet object may throw an UnavailableException
- * or a PortletException. In this case, the portlet container must not place the portlet object into active service and
- * it must release the portlet object."
- * @portlet.specification assert="SPEC:6 - The destroy method must not be called because the initialization is
- * considered unsuccessful."
- * @portlet.specification assert="SPEC:8 - A RuntimeException thrown during initialization must be handled as a
- * PortletException."
  */
 @TestActor(id=RuntimeExceptionDuringInitPortlet.NAME)
 public class RuntimeExceptionDuringInitPortlet extends AbstractUniversalTestPortlet
