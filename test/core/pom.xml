@@ -30,6 +30,8 @@
 
    <properties>
      <exo.test.coverage.ratio>0.02</exo.test.coverage.ratio>
+     <!-- Use in Legacy Tests Only -->
+     <commons-httpclient.version>3.1</commons-httpclient.version>
    </properties>
 
    <dependencies>
@@ -103,8 +105,18 @@
       <dependency>
         <groupId>commons-httpclient</groupId>
         <artifactId>commons-httpclient</artifactId>
+        <version>${commons-httpclient.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>xpp3</groupId>
+            <artifactId>xpp3_min</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
-
    </dependencies>
 
   <build>
