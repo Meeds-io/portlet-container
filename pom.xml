@@ -40,9 +40,9 @@
       it provides in their own applications. GateIn Portlet Container is available through the business-friendly LGPL open source license.</description>
 
    <scm>
-      <connection>scm:git:git://github.com/meeds-io/gatein-pc.git</connection>
-      <developerConnection>scm:git:ssh://git@github.com/meeds-io/gatein-pc.git</developerConnection>
-      <url>https://github.com/meeds-io/gatein-pc</url>
+      <connection>scm:git:git://github.com/meeds-io/portlet-container.git</connection>
+      <developerConnection>scm:git:ssh://git@github.com/meeds-io/portlet-container.git</developerConnection>
+      <url>https://github.com/meeds-io/portlet-container</url>
    </scm>
 
    <properties>
